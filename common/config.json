@@ -1,0 +1,5 @@
+{
+  "CRON":"'/2 * * * *",
+  "DBNAME":"database.sqlite",
+  "UserName":"@Chistesparatod7"
+}
