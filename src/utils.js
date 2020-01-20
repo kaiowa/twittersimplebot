@@ -14,7 +14,7 @@ async function getPost(){
   console.log('get 1 post from database');
   return new Promise((resolve,reject)=>{
     try {
-      db.all("SELECT id,post from posts limit 1", function(err, row) {
+      db.all("SELECT id,post from posts where id=3 limit 1", function(err, row) {
           resolve(row[0]);
       });
     } catch (error) {
